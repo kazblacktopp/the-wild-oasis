@@ -1,0 +1,16 @@
+{
+  "env": { "browser": true, "es2020": true },
+  "root": true,
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint", "react-refresh"],
+  "extends": [
+    "react-app",
+    "eslint:recommended",
+    "plugin:react-hooks/recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended"
+  ],
+  "rules": {
+    "react-refresh/only-export-components": "warn"
+  }
+}
