@@ -12,7 +12,8 @@ An 'in-house' application for a fictitious small boutique hotel, with 8 luxuirou
 
 ### Main tools:
 
--   Framework: [**_ReactJS_**](https://react.dev/)
+-   Language: [**_TypeScript_**](https://www.typescriptlang.org/)
+-   Framework/Library: [**_ReactJS_**](https://react.dev/)
 -   Routing: [**_React Router_**](https://reactrouter.com/en/main)
 -   Remote state management: [**_React Query_**](https://tanstack.com/query/latest)
 -   UI state management: [**_Context API_**](https://react.dev/learn/passing-data-deeply-with-context)
