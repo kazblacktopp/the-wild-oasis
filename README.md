@@ -26,4 +26,4 @@ An 'in-house' application for a fictitious small boutique hotel, with 8 luxuirou
 -   Notifications: [**_React Hot Toast_**](https://react-hot-toast.com/)
 -   Charts displays: [**_Recharts_**](https://recharts.org/en-US/)
 -   Date manipulation: [**_date-fns_**](https://date-fns.org/)
--   Remote state storage and API: [**_Supabase_**](https://supabase.com/)
+-   Remote state storage and API: [**_Supabase_**](https://supabase.com/) - a backend with a Postgres database (SQL)
