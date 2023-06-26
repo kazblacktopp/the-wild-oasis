@@ -1,4 +1,6 @@
 import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
+import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
+import { ReactQueryDevtools } from '@tanstack/react-query-devtools';
 import GlobalStyles from './styles/GlobalStyles';
 import Dashboard from './pages/Dashboard';
 import AppLayout from './ui/AppLayout';
@@ -7,9 +9,19 @@ import Cabins from './pages/Cabins';
 import Users from './pages/Users';
 import Settings from './pages/Settings';
 
+const queryClient = new QueryClient({
+	defaultOptions: {
+		queries: {
+			staleTime: 60 * 1000,
+		},
+	},
+});
+
 export default function App() {
 	return (
-		<>
+		<QueryClientProvider client={queryClient}>
+			<ReactQueryDevtools initialIsOpen={false} />
+
 			<GlobalStyles />
 			<BrowserRouter>
 				<Routes>
@@ -26,7 +38,7 @@ export default function App() {
 					</Route>
 				</Routes>
 			</BrowserRouter>
-		</>
+		</QueryClientProvider>
 	);
 }
 
