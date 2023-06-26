@@ -2,11 +2,11 @@
 
 An 'in-house' application for a fictitious small boutique hotel, with 8 luxuirous wooden cabins, that displays information about hotel rooms, guests bookings and revenue generated all from a beautifully styled dashboard. The app will allow the hotel to manage bookings, cabins and guests, as well as the ability to create additional staff users.
 
-<img src="./src/assets/the-wild-oasis-home.png" alt="" width="600" />
-<img src="./src/assets/the-wild-oasis-bookings.png" alt="" width="600" />
-<img src="./src/assets/the-wild-oasis-cabins.png" alt="" width="600" />
-<img src="./src/assets/the-wild-oasis-users.png" alt="" width="600" />
-<img src="./src/assets/the-wild-oasis-settings.png" alt="" width="600" />
+<img src="./readmeAssets/the-wild-oasis-home.png" alt="" width="600" />
+<img src="./readmeAssets/the-wild-oasis-bookings.png" alt="" width="600" />
+<img src="./readmeAssets/the-wild-oasis-cabins.png" alt="" width="600" />
+<img src="./readmeAssets/the-wild-oasis-users.png" alt="" width="600" />
+<img src="./readmeAssets/the-wild-oasis-settings.png" alt="" width="600" />
 
 ## Tech stack used in this project
 
