@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import Input from '../../ui/Input';
 import Form from '../../ui/Form';
 import Textarea from '../../ui/Textarea';
+import FileInput from '../../ui/FileInput';
 
 const FormRow = styled.div`
 	display: grid;
@@ -61,6 +62,11 @@ function CreateCabinForm() {
 			<FormRow>
 				<Label htmlFor="discount">Discount</Label>
 				<Textarea id="description" defaultValue="" />
+			</FormRow>
+
+			<FormRow>
+				<Label htmlFor="image">Cabin photo</Label>
+				<FileInput id="image" accept="image/*" />
 			</FormRow>
 		</Form>
 	);
