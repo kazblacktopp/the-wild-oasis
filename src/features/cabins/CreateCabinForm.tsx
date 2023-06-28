@@ -1,9 +1,9 @@
 import styled from 'styled-components';
-
 import Input from '../../ui/Input';
 import Form from '../../ui/Form';
 import Textarea from '../../ui/Textarea';
 import FileInput from '../../ui/FileInput';
+import Button from '../../ui/Button';
 
 const FormRow = styled.div`
 	display: grid;
@@ -67,6 +67,13 @@ function CreateCabinForm() {
 			<FormRow>
 				<Label htmlFor="image">Cabin photo</Label>
 				<FileInput id="image" accept="image/*" />
+			</FormRow>
+
+			<FormRow>
+				{/* type is an HTML attribute! */}
+				<Button variation="secondary" size="medium" type="reset">
+					Cancel
+				</Button>
 			</FormRow>
 		</Form>
 	);
